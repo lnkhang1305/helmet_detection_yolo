@@ -1,21 +1,9 @@
 # Helmet Dectection 
-This project is using YOLOv10 to detect helmet in image. In this repo, you can train or test the model trained with COCO dataset.
+This project is using YOLOv10 to detect helmet in image. In this repo, you can train or test the model trained with COCO dataset. I use Google Colab to train and test model
 ## Test model
-  Run this command in your bash:
-   ```bash
-   python test.py '<path to your image>'
-   ```
-  The result is in `result` file.
-  Or you can test it with streamlit by runnning this command:
-  ```bash
-  streamlit run app.py
-  ```
+You just run the cell of Test section to test the model that I have trained. You can upload your image to be the input of model
 ## Train model
-  Run file train.py:
-  ```bash
-  python train.py
-  ```
-  The model is saved at yolov10/runs/detect/train/weights/best.pt
+Run all the cells of Train section to train your own model. 
   
     
    
